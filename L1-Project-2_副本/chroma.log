@@ -1,0 +1,36 @@
+[33mWARNING[0m:  [01-08-2025 21:12:36] chroma_server_nofile is set to 65535, but this is less than current soft limit of 1048575. chroma_server_nofile will not be set.
+[32mINFO[0m:     [01-08-2025 21:12:36] Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+[36mDEBUG[0m:    [01-08-2025 21:12:36] Starting component System
+[36mDEBUG[0m:    [01-08-2025 21:12:36] Starting component OpenTelemetryClient
+[36mDEBUG[0m:    [01-08-2025 21:12:36] Starting component SqliteDB
+[36mDEBUG[0m:    [01-08-2025 21:12:36] Starting component SimpleQuotaEnforcer
+[36mDEBUG[0m:    [01-08-2025 21:12:36] Starting component Posthog
+[36mDEBUG[0m:    [01-08-2025 21:12:36] Starting component SimpleRateLimitEnforcer
+[36mDEBUG[0m:    [01-08-2025 21:12:36] Starting component LocalSegmentManager
+[36mDEBUG[0m:    [01-08-2025 21:12:36] Starting component LocalExecutor
+[36mDEBUG[0m:    [01-08-2025 21:12:36] Starting component SegmentAPI
+[36mDEBUG[0m:    [01-08-2025 21:12:36] Starting component SimpleAsyncRateLimitEnforcer
+[32mINFO[0m:     [01-08-2025 21:12:37] Started server process [[36m27114[0m]
+[32mINFO[0m:     [01-08-2025 21:12:37] Waiting for application startup.
+[32mINFO[0m:     [01-08-2025 21:12:37] Application startup complete.
+[32mINFO[0m:     [01-08-2025 21:12:37] Uvicorn running on [1mhttp://localhost:8000[0m (Press CTRL+C to quit)
+[32mINFO[0m:     [01-08-2025 21:12:56] ::1:53479 - "GET / HTTP/1.1" 404
+[32mINFO[0m:     [01-08-2025 21:12:56] ::1:53479 - "GET /favicon.ico HTTP/1.1" 404
+[32mINFO[0m:     [01-08-2025 21:13:05] ::1:53479 - "GET / HTTP/1.1" 404
+[32mINFO[0m:     [01-08-2025 21:13:26] ::1:53610 - "GET / HTTP/1.1" 404
+[32mINFO[0m:     [01-08-2025 21:13:27] ::1:53610 - "GET /favicon.ico HTTP/1.1" 404
+[32mINFO[0m:     [01-08-2025 21:14:49] ::1:53791 - "GET /api/v1/heartbeat HTTP/1.1" 200
+[32mINFO[0m:     [01-08-2025 21:15:43] Shutting down
+[32mINFO[0m:     [01-08-2025 21:15:43] Waiting for application shutdown.
+[36mDEBUG[0m:    [01-08-2025 21:15:43] Stopping component System
+[36mDEBUG[0m:    [01-08-2025 21:15:43] Stopping component SegmentAPI
+[36mDEBUG[0m:    [01-08-2025 21:15:43] Stopping component LocalExecutor
+[36mDEBUG[0m:    [01-08-2025 21:15:43] Stopping component LocalSegmentManager
+[36mDEBUG[0m:    [01-08-2025 21:15:43] Stopping component SimpleAsyncRateLimitEnforcer
+[36mDEBUG[0m:    [01-08-2025 21:15:43] Stopping component SimpleRateLimitEnforcer
+[36mDEBUG[0m:    [01-08-2025 21:15:43] Stopping component Posthog
+[36mDEBUG[0m:    [01-08-2025 21:15:43] Stopping component SimpleQuotaEnforcer
+[36mDEBUG[0m:    [01-08-2025 21:15:43] Stopping component SqliteDB
+[36mDEBUG[0m:    [01-08-2025 21:15:43] Stopping component OpenTelemetryClient
+[32mINFO[0m:     [01-08-2025 21:15:43] Application shutdown complete.
+[32mINFO[0m:     [01-08-2025 21:15:43] Finished server process [[36m27114[0m]

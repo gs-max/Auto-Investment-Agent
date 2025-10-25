@@ -1,0 +1,19 @@
+# LangGraph and LangChain
+langgraph>=0.2.0
+langchain>=0.3.0
+langchain-openai>=0.2.0
+
+# Hyperliquid SDK
+hyperliquid-python-sdk>=0.3.0
+eth-account>=0.13.0
+
+# LLM Providers
+openai>=1.0.0
+
+# Data Processing
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Utilities
+python-dotenv>=1.0.0
+pydantic>=2.0.0
